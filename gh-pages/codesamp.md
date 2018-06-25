@@ -4,6 +4,7 @@ I need to see the set of classes that GitHub/Markdown/Jekyll uses to
 highlight code.  To that end, this page contains several code sections
 in different languages to see how the text is categorized.
 
+Let's first try some c code:
 ~~~c
 /**************************
 * This is a block comment.
@@ -25,11 +26,12 @@ int main(int argc, char **argv)
    {
    case 1: printf("First case.\n"); break;
    case 2: printf("Second case.\n"); break;
-   default: printf("Default case for %d.\n", argc)"; break; 
+   default: printf("Default case for %d.\n", argc); break; 
    }
 }
 ~~~
 
+And now some shell script.
 ~~~sh
 #!/bin/bash
 
