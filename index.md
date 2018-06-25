@@ -1,3 +1,10 @@
+---
+layout: page
+title : CJungmann HomePage
+tagline: Where does this tagline appear?
+description: Home Page for Chuck Jungmann Programming
+---
+
 # GitHub Programming Website for Chuck Jungmann
 
 I have created several projects in GitHub over the past few years.
