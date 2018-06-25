@@ -16,13 +16,13 @@ h1, h2, h3 { font-family: sans-serif; }
 
 h5, h6 { margin-left: -200px; width:200px; }
 
-pre { font-family: "Courier New", courier, monospace; }
+code    { font-family: "Courier New", courier, monospace; }
 
-span.pl-k  { color: #FF6666; } /* programming-language, keyword */
-span.pl-c  { color: #66CC66; } /* programming-language, comment */
-span.pl-c1 { color: #CC66FF; } /* programming-language, constant? */
-span.pl-en,
-span.pl-pds { color: #6666FF; } /* programming-language, string? */
+span.k  { color: #FF6666; } /* programming-language, keyword */
+span.c  { color: #66CC66; } /* programming-language, comment */
+span.c1 { color: #CC66FF; } /* programming-language, constant? */
+span.en,
+span.pds { color: #6666FF; } /* programming-language, string? */
                         
 /* .pl-c{color:#6a737d} */
 /* .pl-c1, */
