@@ -1,2 +1,8 @@
-html { background-color: #FFFF00; width:40em; }
-body { background-color: #FFFFFF; }
+html { background-color: #9999FF; }
+body
+{
+    font-size: 16pt;
+    background-color: #FFFFFF;
+    width: 40em;
+    margin: auto;
+}
