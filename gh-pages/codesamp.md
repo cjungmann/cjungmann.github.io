@@ -1,3 +1,9 @@
+---
+layout      : default
+title       : Context Highlighting Code samples
+description : Page with code samples to test tag assignment and colors
+---
+
 # Code Context Highlighting Sample
 
 I need to see the set of classes that GitHub/Markdown/Jekyll uses to
