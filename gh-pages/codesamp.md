@@ -10,6 +10,9 @@ I need to see the set of classes that GitHub/Markdown/Jekyll uses to
 highlight code.  To that end, this page contains several code sections
 in different languages to see how the text is categorized.
 
+I forgot the front-matter with the layout the first few times.  I'm
+adding this text to signal that the new page was loaded.
+
 Let's first try some c code:
 ~~~c
 /**************************
