@@ -14,6 +14,7 @@ I forgot the front-matter with the layout the first few times.  I'm
 adding this text to signal that the new page was loaded.
 
 Let's first try some c code:
+
 ~~~c
 /**************************
 * This is a block comment.
