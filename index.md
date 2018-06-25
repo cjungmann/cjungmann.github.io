@@ -5,7 +5,7 @@ tagline: Where does this tagline appear?
 description: Home Page for Chuck Jungmann Programming
 ---
 
-# GitHub Programming Website for Chuck Jungmann
+# GitHub Projects of Chuck Jungmann
 
 I have created several projects in GitHub over the past few years.
 While you can login to my [GitHub site](https://cjungmann.github.com)
