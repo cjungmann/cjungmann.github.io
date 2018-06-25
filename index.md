@@ -13,3 +13,5 @@ to learn about my programming interests, I am creating this additional
 page to make it easier to learn about me.
 
 
+Trying to get the stylesheet right, let's look at
+[this code page](gh-pages/codesamp.md)
