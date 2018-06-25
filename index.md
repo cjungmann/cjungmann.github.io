@@ -1,5 +1,5 @@
 ---
-layout      : null
+layout      : default
 title       : CJungmann HomePage
 tagline     : Where does this tagline appear?
 description : Home Page for Chuck Jungmann Programming
