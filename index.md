@@ -1,8 +1,8 @@
 ---
-layout: null
-title : CJungmann HomePage
-tagline: Where does this tagline appear?
-description: Home Page for Chuck Jungmann Programming
+layout      : null
+title       : CJungmann HomePage
+tagline     : Where does this tagline appear?
+description : Home Page for Chuck Jungmann Programming
 ---
 
 # GitHub Projects of Chuck Jungmann
