@@ -1,3 +1,4 @@
 name: Chuck Jungmann
 markdown: kramdown
+theme: hacker
 exclude: [ README.md css/csstest.html ]
