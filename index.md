@@ -26,3 +26,23 @@ The other benefit of having a public repository of my work is that
 show off a bit.  It is the showing-off that inspired me to create
 this page, to make easier to browse my projects without having to
 visit each repository.
+
+## GitHub Projects
+
+### [Schema Framework](https://github.com/cjungmann/schemafw)
+
+This project is in two parts
+- a FastCGI server object, written in C++, that returns XML
+  documents from MySQL query results, and
+- a large and growing client framework that uses HTML, CSS,
+  Javascript, XML-Http-Request, and XSLT stylesheets to generate
+  pages through which users interact with the MySQL data.
+
+As I write this page I am starting to split the server out of
+the primary repository.  I have wanted to do this for a while
+because it rarely needs any attention.  Now that I am about to
+add a new and somewhat complicated feature that I may
+ultimately abandon, it makes sense to start using a development
+branch and get serious about maintaining version information.
+
+
