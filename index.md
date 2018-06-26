@@ -1,5 +1,4 @@
 ---
-layout      : default
 title       : Chuck Jungmann's GitHub
 tagline     : Where does this tagline appear?
 description : Home Page for Chuck Jungmann's Programming Projects and Artifacts
