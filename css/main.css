@@ -18,11 +18,17 @@ h5, h6 { margin-left: -200px; width:200px; }
 
 code    { font-family: "Courier New", courier, monospace; }
 
+span.kt,
 span.k  { color: #FF6666; } /* programming-language, keyword */
 span.c  { color: #66CC66; } /* programming-language, comment */
 span.c1 { color: #CC66FF; } /* programming-language, constant? */
-span.en,
-span.pds { color: #6666FF; } /* programming-language, string? */
+span.nl
+span.n  { color: #6666CC; } /* name */
+span.mi { color: #CC66CC; } /* integer? */
+span.o  { color: #CCCC66; } /* object/entity */
+span.p  { color: #66FFCC; } /* punctuation */
+span.se,                    /* string-entity "\n" */
+span.s { color: #6666FF; } /* programming-language, string? */
                         
 /* .pl-c{color:#6a737d} */
 /* .pl-c1, */
