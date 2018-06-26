@@ -1,33 +1,37 @@
 html { background-color: #000000; }
 body
 {
-    padding-left: 200px;
     color: #FFFFFF;
-    font-family: courier, mono-space;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 16pt;
     line-height: 1.5em;
     width: 800px;
     margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 { color: #66FF66; }
-
-h1, h2, h3 { font-family: sans-serif; }
-
-h5, h6 { margin-left: -200px; width:200px; }
+h1, h2, h3, h4, h5, h6
+{
+    color: #66FF66;
+    font-family: Verdana, Geneva, sans-serif;
+}
 
 code    { font-family: "Courier New", courier, monospace; }
 
+span.cm,
+span.c  { color: #FF3333; } /* programming-language, comment */
 span.kt,
 span.k  { color: #FF6666; } /* programming-language, keyword */
-span.c  { color: #66CC66; } /* programming-language, comment */
 span.c1 { color: #CC66FF; } /* programming-language, constant? */
-span.nl
+span.nb,                    /* name, builtin? bash echo */
+span.nf,                    /* name, function */
+span.nv,                    /* name, variable */
+span.nl,                    /* name, ? c default */
 span.n  { color: #6666CC; } /* name */
 span.mi { color: #CC66CC; } /* integer? */
 span.o  { color: #CCCC66; } /* object/entity */
 span.p  { color: #66FFCC; } /* punctuation */
 span.se,                    /* string-entity "\n" */
+span.s2,                    /* string in shell script code */
 span.s { color: #6666FF; } /* programming-language, string? */
                         
 /* .pl-c{color:#6a737d} */
