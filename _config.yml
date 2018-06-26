@@ -1,4 +1,4 @@
 name: Chuck Jungmann
-markdown: kramdown
 theme: jekyll-theme-hacker
+markdown: kramdown
 exclude: [ README.md css/csstest.html ]
