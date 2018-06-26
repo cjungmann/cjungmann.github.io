@@ -36,6 +36,8 @@ when I push the projects to *GitHub*.
   A guide to setting up Apache to send requests to a custom handler
   based on the file extension of the requested page.
 
+  Apache .conf files
+
 - [C++ Lambda Presentation](#lambda-expressions-presentation):
   For a C/C++ Meetup, a slideshow and several C++ code experiments
   that explore the mechanics of C++11 lambda functions and closures.
