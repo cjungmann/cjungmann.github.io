@@ -49,9 +49,9 @@ when I push the projects to *GitHub*.
 - [xsl-import](#xsl-import) creates a single XSLT file by incorporating
   xsl:import files.  (**Python, XSLT**)
 
-- [libxmlsqlcb](https://github.com/cjungmann/libmysqlcb) is a shared
-  library that executes MySQL queries and returns results to a lambda
-  function. (**C++, MySQL, C-Api**)
+- [libxmlsqlcb](#libmysqlcb) is a shared library that executes MySQL
+  queries and returns results to a lambda function. (**C++, MySQL,
+  C-Api**)
 
 - [gensfw](#gensfw-to-generate-schema-framework-scripts) is an ambitious
   BASH project that generates Schema Framework SRM and SQL scripts using
@@ -156,7 +156,7 @@ that demonstrates how to use the library.
 ## gensfw to Generate Schema Framework Scripts
 
 [gensfw source](https://github.com/cjungmann/gensfw)<br/>
-[bashmysql source](https://github.com/cjungmann/bashmysql)
+[bashmysql source](https://github.com/cjungmann/bashmysql)<br/>
 [yaddemo source](https://github.com/cjungmann/yaddemo)
 
 The command, `gensfw` is a CI command that uses `mysql` to collect schema
