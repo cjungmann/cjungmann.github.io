@@ -27,9 +27,13 @@ when I push the projects to *GitHub*.
 
 ## GitHub Projects
 
-- [Schema Framework](#schema-framework): A full-stack database-driven
-  web application framework. (**C++, HTML, CSS, Javascript, XSLT,
-   MySQL**)
+- [Schema Server](#schema-server): A FastCGI module that delivers XML
+  documents, built from MySQL procedure results, in response to
+  HTTP requests. (**C++, MySQL C-Api, Multi-process and multi-threaded**)
+
+- [Schema Framework](#schema-framework): Companion software for
+  SchemaServer, this set of browser scripts and templates manages the
+  interactions between the user and the SchemaServer.(**HTML, CSS, Javascript, XSLT)
 
 - [Apache File Extension Handler Guide](#apache-file-handler-guide):
   A guide to setting up Apache to send requests to a custom handler
@@ -65,23 +69,46 @@ when I push the projects to *GitHub*.
 - [Hacker Rank](#hacker-rank-competiion-solutions)
   Playing around with C and purely stack-based memory allocation. (**C**)
 
+## Schema Server
+
+[source](https://github.com/cjungmann/SchemaServer)
+
+This C++ program, `schema.fcgi`, is an attempt to make an efficient, secure,
+and self-sufficient solution for delivering database-driven web applications.
+MySQL procedures are the templates of all interactions, the procedure
+parameters become HTML forms and the procedure query results become XML
+documents to be transformed on the client using XSLT.
+
+`schema.fcgi` provides the following features:
+
+- Accepts HTTP GET and POST requests.
+- Runs MySQL procedures with parameterized arguments, eliminating the risk
+  of SQL injection attacks.
+- Responds with XML documents (except for exported ODS files).
+- Provides turnkey session, password, and authorized access methods.
+- Allow the import and export of spreadsheet data, exporting in the
+  widely accepted ODS file format.
+- Except for rare import and export interactions, the program runs without
+  support from any other scripting language.  PHP and other web services
+  can be disabled.
+
+In the interest of efficiency, preventing memory leaks and fragmentation,
+and to see if I could do it, I decided early on that my code would exclusively
+use stack memory.  Older code is a little awkward as I worked out the kinks
+with this strategy, but I refined my methods as I gained experience.
 
 ## Schema Framework
 
 [source](https://github.com/cjungmann/schemafw)
 
-This very large project a full-stack web application framework.
-It is implemented in two parts:
-- a FastCGI server object, written in C++, that returns XML
-  documents from MySQL query results, and
-- a large and growing client framework that uses HTML, CSS,
-  Javascript, XML-Http-Request, and XSLT stylesheets to generate
-  pages through which users interact with the MySQL data.
+A client-side interface for SchemaServer.  Until recently, this project
+also hosted the `schema.fcgi` SchemaServer program, and it still hosts
+a large amount of the documentation for `schema.fcgi`.
 
-As I write this page I am extracting the FastCGI server component
-into its own project to improve version control because it is on a
-different update schedule from the rest of the project.
-
+The fundamental operating principle of this framework is to use XSL
+transformations to convert XML from `schema.fcgi` into web pages.  It
+takes advantage of XSLT's mature language definition and the browsers'
+native implementation of transformation code.
 
 ## Apache File Handler Guide
 
@@ -89,7 +116,7 @@ different update schedule from the rest of the project.
 
 I wrote this guide after I finally succeeded in getting Apache to
 use my Schema Server object to process requests to files that had
-an **.srm** extension.  It's surprisingly difficult.
+an **.srm** extension.
 
 ## Lambda Expressions Presentation
 
@@ -190,7 +217,7 @@ and ease of coding.  In fact, ODS is much more complicated to create
 this format than the universally-accepted CVS, but is favored because
 of its unambiguous presentation of rows and columns.
 
-## Hacker Rank Competiion Solutions
+## Hacker Rank Competition Solutions
 
 [source](https://github.com/cjungmann/HackerRank_ProjectEuler_Solutions)
 
