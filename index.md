@@ -6,24 +6,15 @@ description : Home Page for Chuck Jungmann's Programming Projects and Artifacts
 
 # Chuck Jungmann's GitHub Page
 
-Several years ago, having finally committed to using source control and
-learned how to use *git*, I created an account on GitHub to save my
-projects.  My primary goal was to preserve access to earlier versions
-of development in order to roll-back mistakes and to serve as an online
-backup of my progress.
+When I started using *git*, I was attracted to the ability to review
+or even return to previous code commits.  I felt safer exploring
+possibilities when I could easily undo unproductive ideas.  I also
+liked having a remote backup of my work.
 
-The secondary goal of using a public repository is that I thought
-I could use it to showcase my programming style and aptitude.  But
-my exclusive focus on a single project, [Schema Framework](#schema-framework),
-which grew far beyond my original plans, contradicted that purpose.
-The project was so large that it would be unreasonable to expect
-someone to get an accurate impression.
-
-So I have started to create smaller projects that solve smaller
-problems.  I can more easily indulge my curiosity when I discover
-unexpected features of a language or environment.  I strive to
-write easily understood code and to leave a record of what I learn
-when I push the projects to *GitHub*.
+It became my habit to put all new work on *github.com*.  As my
+collection of *GitHub* projects has grown, I realized that it can
+also serve as an introduction to my programming abilities and
+interests.
 
 ## GitHub Projects
 
